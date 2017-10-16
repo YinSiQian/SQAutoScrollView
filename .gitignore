@@ -1,7 +1,11 @@
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+# Mac OS X
+.DS_Store
 
+## Other
+*.xcuserstate
 ## Build generated
 build/
 DerivedData/

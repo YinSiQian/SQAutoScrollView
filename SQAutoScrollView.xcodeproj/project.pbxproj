@@ -12,9 +12,14 @@
 		8B1C8C671F94F5A300D4E094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C8C651F94F5A300D4E094 /* Main.storyboard */; };
 		8B1C8C691F94F5A300D4E094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C8C681F94F5A300D4E094 /* Assets.xcassets */; };
 		8B1C8C6C1F94F5A300D4E094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C8C6A1F94F5A300D4E094 /* LaunchScreen.storyboard */; };
+		8B1C8C771F94F78C00D4E094 /* SQAutoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C8C741F94F78600D4E094 /* SQAutoScrollView.swift */; };
+		8B1C8C781F94F78C00D4E094 /* SQDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C8C751F94F78600D4E094 /* SQDotView.swift */; };
+		8B1C8C791F94F78C00D4E094 /* SQPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C8C761F94F78600D4E094 /* SQPageControl.swift */; };
+		EA11BCD156EA354919A7B78A /* Pods_SQAutoScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0252805F4C7122560FAC469 /* Pods_SQAutoScrollView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		101568394FC37DBF140B08DF /* Pods-SQAutoScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQAutoScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQAutoScrollView/Pods-SQAutoScrollView.debug.xcconfig"; sourceTree = "<group>"; };
 		8B1C8C5E1F94F5A300D4E094 /* SQAutoScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQAutoScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1C8C611F94F5A300D4E094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B1C8C631F94F5A300D4E094 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,11 @@
 		8B1C8C681F94F5A300D4E094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B1C8C6B1F94F5A300D4E094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B1C8C6D1F94F5A300D4E094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B1C8C741F94F78600D4E094 /* SQAutoScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQAutoScrollView.swift; sourceTree = "<group>"; };
+		8B1C8C751F94F78600D4E094 /* SQDotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQDotView.swift; sourceTree = "<group>"; };
+		8B1C8C761F94F78600D4E094 /* SQPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQPageControl.swift; sourceTree = "<group>"; };
+		C947C685640508F7971C87A1 /* Pods-SQAutoScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQAutoScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQAutoScrollView/Pods-SQAutoScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		D0252805F4C7122560FAC469 /* Pods_SQAutoScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQAutoScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA11BCD156EA354919A7B78A /* Pods_SQAutoScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46B8C8251D6D5B53CBA9158C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				101568394FC37DBF140B08DF /* Pods-SQAutoScrollView.debug.xcconfig */,
+				C947C685640508F7971C87A1 /* Pods-SQAutoScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8B1C8C551F94F5A300D4E094 = {
 			isa = PBXGroup;
 			children = (
 				8B1C8C601F94F5A300D4E094 /* SQAutoScrollView */,
 				8B1C8C5F1F94F5A300D4E094 /* Products */,
+				46B8C8251D6D5B53CBA9158C /* Pods */,
+				C91D246CD2F4C2459D07F6F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +76,7 @@
 		8B1C8C601F94F5A300D4E094 /* SQAutoScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				8B1C8C731F94F74000D4E094 /* Source */,
 				8B1C8C611F94F5A300D4E094 /* AppDelegate.swift */,
 				8B1C8C631F94F5A300D4E094 /* ViewController.swift */,
 				8B1C8C651F94F5A300D4E094 /* Main.storyboard */,
@@ -64,6 +87,24 @@
 			path = SQAutoScrollView;
 			sourceTree = "<group>";
 		};
+		8B1C8C731F94F74000D4E094 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8B1C8C741F94F78600D4E094 /* SQAutoScrollView.swift */,
+				8B1C8C751F94F78600D4E094 /* SQDotView.swift */,
+				8B1C8C761F94F78600D4E094 /* SQPageControl.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C91D246CD2F4C2459D07F6F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0252805F4C7122560FAC469 /* Pods_SQAutoScrollView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B1C8C701F94F5A300D4E094 /* Build configuration list for PBXNativeTarget "SQAutoScrollView" */;
 			buildPhases = (
+				E739FF972CB0537A3C708C02 /* [CP] Check Pods Manifest.lock */,
 				8B1C8C5A1F94F5A300D4E094 /* Sources */,
 				8B1C8C5B1F94F5A300D4E094 /* Frameworks */,
 				8B1C8C5C1F94F5A300D4E094 /* Resources */,
+				A49CF477666EAD73A6460C99 /* [CP] Embed Pods Frameworks */,
+				BA01583A7B12682423424B88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +175,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A49CF477666EAD73A6460C99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SQAutoScrollView/Pods-SQAutoScrollView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQAutoScrollView/Pods-SQAutoScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA01583A7B12682423424B88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQAutoScrollView/Pods-SQAutoScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E739FF972CB0537A3C708C02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQAutoScrollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B1C8C5A1F94F5A300D4E094 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B1C8C781F94F78C00D4E094 /* SQDotView.swift in Sources */,
 				8B1C8C641F94F5A300D4E094 /* ViewController.swift in Sources */,
+				8B1C8C771F94F78C00D4E094 /* SQAutoScrollView.swift in Sources */,
+				8B1C8C791F94F78C00D4E094 /* SQPageControl.swift in Sources */,
 				8B1C8C621F94F5A300D4E094 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +373,7 @@
 		};
 		8B1C8C711F94F5A300D4E094 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101568394FC37DBF140B08DF /* Pods-SQAutoScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +389,7 @@
 		};
 		8B1C8C721F94F5A300D4E094 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C947C685640508F7971C87A1 /* Pods-SQAutoScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
