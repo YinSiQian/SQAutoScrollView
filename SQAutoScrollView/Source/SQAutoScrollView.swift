@@ -127,7 +127,7 @@ public class SQAutoScrollView: UIView {
         setTotalCount()
     }
     
-    convenience init(frame: CGRect, urls: [String], didItemCallBack: @escaping didSelectedItem) {
+    convenience public init(frame: CGRect, urls: [String], didItemCallBack: @escaping didSelectedItem) {
         self.init(frame: frame, urls: urls)
         clickCompletionHandler = didItemCallBack
     }
