@@ -1,9 +1,9 @@
 # SQAutoScrollView
-iOS Swift版本的图片轮播库,简单易用
+An auto scroll banner framework that is simple and easy to use
+
 
 # install
-支持pod 安装</br>
-pod 'SQAutoScrollView', '~>1.0.0'
+pod 'SQAutoScrollView', '~>1.0.1'
 
 # usage
 ```swift
@@ -21,9 +21,9 @@ view.addSubview(cycleView)
 let cycleView = SQAutoScrollView(frame: CGRect.init(x: 0, y: 100, width: view.bounds.size.width, height: 300), urls: urls, didItemCallBack: { (view, index) in
             print("view--->\(view), index-->\(index)")
         })
-//轮播间隔时间
+//auto scroll interval
 cycleView.interval = 1
-//currentPage 属性需要在imageUrls设置完才能使用,否则无效.默认为0
+//currentPage default is 0, it must be set after property imageUrls, otherwise no works.
 cycleView.currentPage = 1   
 cycleView.pageControl?.alignment = .right
 cycleView.pageControl?.style = .rectangle
@@ -37,5 +37,7 @@ iOS 8.0+</br>
 Swift 4.0</br>
 Dependency Kingfisher 4.0.1
 
-# issue
-如果发现有错误,请及时告诉我,email ysq405515@sina.com,我会及时修复这个问题.谢谢大家.
+# hope
+if you found some bug when used, hope you can issue me.  Thanks.</br>
+if you hope have new function, hope you can issue me, i'd love to add more useful function to this framework. Thanks.
+
