@@ -93,7 +93,7 @@ public class SQAutoScrollView: UIView {
         }
     }
     
-    var pageControl: SQPageControl?
+    public var pageControl: SQPageControl?
 
     private var timer: Timer?
     
