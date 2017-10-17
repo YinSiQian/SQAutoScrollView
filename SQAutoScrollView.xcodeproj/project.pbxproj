@@ -32,6 +32,7 @@
 		8B1C8C751F94F78600D4E094 /* SQDotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQDotView.swift; sourceTree = "<group>"; };
 		8B1C8C761F94F78600D4E094 /* SQPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQPageControl.swift; sourceTree = "<group>"; };
 		8B2B8B811F95A4C400ECC849 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		8BA07A131F95AB5C00F4CB79 /* preview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = preview.gif; sourceTree = "<group>"; };
 		C947C685640508F7971C87A1 /* Pods-SQAutoScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQAutoScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQAutoScrollView/Pods-SQAutoScrollView.release.xcconfig"; sourceTree = "<group>"; };
 		D0252805F4C7122560FAC469 /* Pods_SQAutoScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQAutoScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,6 +84,7 @@
 				8B1C8C611F94F5A300D4E094 /* AppDelegate.swift */,
 				8B1C8C651F94F5A300D4E094 /* Main.storyboard */,
 				8B1C8C681F94F5A300D4E094 /* Assets.xcassets */,
+				8BA07A121F95AB3D00F4CB79 /* Resource */,
 				8B1C8C6A1F94F5A300D4E094 /* LaunchScreen.storyboard */,
 				8B1C8C6D1F94F5A300D4E094 /* Info.plist */,
 			);
@@ -106,6 +108,14 @@
 				8B2B8B811F95A4C400ECC849 /* OneViewController.swift */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		8BA07A121F95AB3D00F4CB79 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8BA07A131F95AB5C00F4CB79 /* preview.gif */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		C91D246CD2F4C2459D07F6F6 /* Frameworks */ = {
