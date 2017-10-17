@@ -1,5 +1,7 @@
 # SQAutoScrollView
-An auto scroll banner framework that is simple and easy to use
+An auto scroll banner framework that is simple and easy to use</br>
+
+![image](https://github.com/YinSiQian/SQAutoScrollView/blob/master/SQAutoScrollView/Resource/preview.gif)
 
 
 # install
