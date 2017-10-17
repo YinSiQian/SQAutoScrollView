@@ -15,6 +15,7 @@
 		8B1C8C771F94F78C00D4E094 /* SQAutoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C8C741F94F78600D4E094 /* SQAutoScrollView.swift */; };
 		8B1C8C781F94F78C00D4E094 /* SQDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C8C751F94F78600D4E094 /* SQDotView.swift */; };
 		8B1C8C791F94F78C00D4E094 /* SQPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C8C761F94F78600D4E094 /* SQPageControl.swift */; };
+		8B2B8B821F95A4C400ECC849 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B8B811F95A4C400ECC849 /* OneViewController.swift */; };
 		EA11BCD156EA354919A7B78A /* Pods_SQAutoScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0252805F4C7122560FAC469 /* Pods_SQAutoScrollView.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		8B1C8C741F94F78600D4E094 /* SQAutoScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQAutoScrollView.swift; sourceTree = "<group>"; };
 		8B1C8C751F94F78600D4E094 /* SQDotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQDotView.swift; sourceTree = "<group>"; };
 		8B1C8C761F94F78600D4E094 /* SQPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQPageControl.swift; sourceTree = "<group>"; };
+		8B2B8B811F95A4C400ECC849 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
 		C947C685640508F7971C87A1 /* Pods-SQAutoScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQAutoScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQAutoScrollView/Pods-SQAutoScrollView.release.xcconfig"; sourceTree = "<group>"; };
 		D0252805F4C7122560FAC469 /* Pods_SQAutoScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQAutoScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -77,8 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				8B1C8C731F94F74000D4E094 /* Source */,
+				8B2B8B801F95A4A500ECC849 /* Demo */,
 				8B1C8C611F94F5A300D4E094 /* AppDelegate.swift */,
-				8B1C8C631F94F5A300D4E094 /* ViewController.swift */,
 				8B1C8C651F94F5A300D4E094 /* Main.storyboard */,
 				8B1C8C681F94F5A300D4E094 /* Assets.xcassets */,
 				8B1C8C6A1F94F5A300D4E094 /* LaunchScreen.storyboard */,
@@ -95,6 +97,15 @@
 				8B1C8C761F94F78600D4E094 /* SQPageControl.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		8B2B8B801F95A4A500ECC849 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8B1C8C631F94F5A300D4E094 /* ViewController.swift */,
+				8B2B8B811F95A4C400ECC849 /* OneViewController.swift */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		C91D246CD2F4C2459D07F6F6 /* Frameworks */ = {
@@ -237,6 +248,7 @@
 				8B1C8C781F94F78C00D4E094 /* SQDotView.swift in Sources */,
 				8B1C8C641F94F5A300D4E094 /* ViewController.swift in Sources */,
 				8B1C8C771F94F78C00D4E094 /* SQAutoScrollView.swift in Sources */,
+				8B2B8B821F95A4C400ECC849 /* OneViewController.swift in Sources */,
 				8B1C8C791F94F78C00D4E094 /* SQPageControl.swift in Sources */,
 				8B1C8C621F94F5A300D4E094 /* AppDelegate.swift in Sources */,
 			);

@@ -155,7 +155,7 @@ public class SQAutoScrollView: UIView {
     }
         
     private func setupTimer() {
-        guard isAuto else {
+        guard isAuto && totalCount > 1 else {
             return
         }
         timer = Timer.scheduledTimer(timeInterval: interval, target: self, selector: #selector(startAutoScroll), userInfo: nil, repeats: true)
