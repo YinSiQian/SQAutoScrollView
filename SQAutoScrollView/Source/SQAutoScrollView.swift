@@ -83,7 +83,7 @@ public class SQAutoScrollView: UIView {
             guard totalCount > 1 else {
                 return
             }
-            collectionView?.scrollToItem(at: IndexPath(row: totalCount / 2 + currentPage, section: 0), at: UICollectionViewScrollPosition(), animated: false)
+            collectionView?.scrollToItem(at: IndexPath(row: totalCount / 2 + currentPage, section: 0), at: UICollectionView.ScrollPosition(), animated: false)
         }
     }
     
@@ -159,7 +159,7 @@ public class SQAutoScrollView: UIView {
             return
         }
         timer = Timer.scheduledTimer(timeInterval: interval, target: self, selector: #selector(startAutoScroll), userInfo: nil, repeats: true)
-        RunLoop.main.add(timer!, forMode: .commonModes)
+        RunLoop.main.add(timer!, forMode: RunLoop.Mode.commonModes)
     }
     
     @objc private func startAutoScroll() {
@@ -222,7 +222,7 @@ extension SQAutoScrollView: UICollectionViewDelegate, UICollectionViewDataSource
     }
     
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsetsMake(0, 0, 0, 0)
+        return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
     }
     
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -249,7 +249,6 @@ extension SQAutoScrollView: UIScrollViewDelegate {
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let index = currentIndex()
         pageControl?.currentPage = index % imageUrls.count
-        
     }
     
     public func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {

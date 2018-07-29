@@ -6,7 +6,7 @@ target 'SQAutoScrollView' do
   use_frameworks!
 
   # Pods for SQAutoScrollView
-  pod 'Kingfisher', '~> 4.0.1'
+  pod 'Kingfisher', '~> 4.8.1'
 
 
 end

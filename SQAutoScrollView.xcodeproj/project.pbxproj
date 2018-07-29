@@ -138,7 +138,6 @@
 				8B1C8C5B1F94F5A300D4E094 /* Frameworks */,
 				8B1C8C5C1F94F5A300D4E094 /* Resources */,
 				A49CF477666EAD73A6460C99 /* [CP] Embed Pods Frameworks */,
-				BA01583A7B12682423424B88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,6 +160,7 @@
 				TargetAttributes = {
 					8B1C8C5D1F94F5A300D4E094 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -213,21 +213,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQAutoScrollView/Pods-SQAutoScrollView-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BA01583A7B12682423424B88 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQAutoScrollView/Pods-SQAutoScrollView-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E739FF972CB0537A3C708C02 /* [CP] Check Pods Manifest.lock */ = {
@@ -402,8 +387,10 @@
 				DEVELOPMENT_TEAM = KAN8WX649Q;
 				INFOPLIST_FILE = SQAutoScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ysq.SQAutoScrollView;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ysq.AutoScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -418,8 +405,10 @@
 				DEVELOPMENT_TEAM = KAN8WX649Q;
 				INFOPLIST_FILE = SQAutoScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ysq.SQAutoScrollView;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ysq.AutoScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
